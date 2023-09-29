@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamsi Yonna - Music</title>
+    <style>
+        /* Main Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #ff6699;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 0;
+            color: #fff;
+        }
+
+        /* Container Styles */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Social Links Styles */
+        .social-links {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 18px;
+            color: #ff6699;
+            text-decoration: none;
+        }
+
+        /* Accessibility Styles */
+        .accessibility {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            background-color: #ff6699;
+            padding: 10px 0;
+            color: #fff;
+        }
+
+        /* Accessibility Features */
+        /* High Contrast Mode */
+        .high-contrast {
+            background-color: #fff;
+            color: #000;
+        }
+
+        /* Large Text Mode */
+        .large-text {
+            font-size: 20px;
+        }
+
+        /* Accessibility Link */
+        .accessibility-link {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kamsi Yonna - Music</h1>
+        <p>Listen to my music on various platforms.</p>
+    </header>
+    
+    <div class="container">
+        <h2>Music Links</h2>
+        <div class="social-links">
+            <a href="https://soundcloud.com/kamsiyonna" target="_blank">SoundCloud</a>
+            <a href="https://twitter.com/_kamsiyonna?lang=en" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/_kamsiyonna" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@_kamsiyonna" target="_blank">TikTok</a>
+        </div>
+        
+        <div class="accessibility">
+            <p>Accessibility Options:</p>
+            <a class="accessibility-link high-contrast" href="#">High Contrast</a>
+            <a class="accessibility-link large-text" href="#">Large Text</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Kamsi Yonna - All rights reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript to toggle high contrast and large text modes
+        document.querySelector('.high-contrast').addEventListener('click', function () {
+            document.body.classList.toggle('high-contrast');
+        });
+
+        document.querySelector('.large-text').addEventListener('click', function () {
+            document.body.classList.toggle('large-text');
+        });
+    </script>
+</body>
+</html>
